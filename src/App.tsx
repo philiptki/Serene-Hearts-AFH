@@ -1,6 +1,9 @@
 import './App.css'
 import Header from './components/Header'
 import Navbar from "./components/Navbar";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Home from "./pages/Home";
 
 
 function App() {
@@ -9,43 +12,15 @@ function App() {
 
           <Header/>
 
-          <Navbar/>
+          {/*<Navbar/>*/}
 
-          <div className="random-div">
-              <h2>Random Heading</h2>
-              <p>This is a random paragraph of text that can be displayed inside the div.
-                  You can add any content here as needed. This is a random paragraph of text that can be displayed
-                  inside the div. You can add any content here as needed. This is a random paragraph of text that
-                  can be displayed inside the div. You can add any content here as needed. This is a random paragraph
-                  of text that can be displayed inside the div. You can add any content here as needed.</p>
-          </div>
+          <Router>
+              <Navbar />
+              <Routes>
+                  <Route path='/' />
+              </Routes>
+          </Router>
 
-          <div className="random-div">
-              <h2>Random Heading</h2>
-              <p>This is a random paragraph of text that can be displayed inside the div.
-                  You can add any content here as needed. This is a random paragraph of text that can be displayed
-                  inside the div. You can add any content here as needed. This is a random paragraph of text that
-                  can be displayed inside the div. You can add any content here as needed. This is a random paragraph
-                  of text that can be displayed inside the div. You can add any content here as needed.</p>
-          </div>
-
-          <div className="random-div">
-              <h2>Random Heading</h2>
-              <p>This is a random paragraph of text that can be displayed inside the div.
-                  You can add any content here as needed. This is a random paragraph of text that can be displayed
-                  inside the div. You can add any content here as needed. This is a random paragraph of text that
-                  can be displayed inside the div. You can add any content here as needed. This is a random paragraph
-                  of text that can be displayed inside the div. You can add any content here as needed.</p>
-          </div>
-
-          <div className="random-div">
-              <h2>Random Heading</h2>
-              <p>This is a random paragraph of text that can be displayed inside the div.
-                  You can add any content here as needed. This is a random paragraph of text that can be displayed
-                  inside the div. You can add any content here as needed. This is a random paragraph of text that
-                  can be displayed inside the div. You can add any content here as needed. This is a random paragraph
-                  of text that can be displayed inside the div. You can add any content here as needed.</p>
-          </div>
 
 
       </div>

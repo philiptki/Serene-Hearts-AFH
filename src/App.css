@@ -1,5 +1,7 @@
+@import "variables.css";
+
 body {
-  background: #ffffff;
+  background: var(--background-color);
 }
 
 /*Soft Blue: #4A90E2

@@ -13,11 +13,10 @@ function Header() {
 
                 {/* Center Phone Number */}
                 <div className="phone-number">
-                    <p>(000)-000-0000</p>
+                    <i className="fa-solid fa-phone"></i>
+                    <p>(206) 429-2064</p>
                 </div>
 
-                {/* Left Button */}
-                <button className="contact-button">Contact Us</button>
 
             </div>
         </header>

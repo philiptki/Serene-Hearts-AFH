@@ -1,8 +1,10 @@
+@import '../variables.css';
+
 /* Header styles */
 .header {
-    background-color: #4A90E2;  /* Blue background */
-    color: white;
-    padding: 20px 0;
+    background-color: var(--primary-color);  /* Blue background */
+    color: var(--text-color);
+    padding: 30px 0;
     width: 100%;
     display: flex;
     justify-content: center;  /* Center the content horizontally */
@@ -12,47 +14,36 @@
 /* Container for header items */
 .header-container {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
-    align-items: center;            /* Center items vertically */
+    justify-content: space-between;  /* Space between items: logo on the left, phone on the right */
+    align-items: center;             /* Center items vertically */
     width: 100%;
-    max-width: 1200px; /* Max width to avoid it becoming too wide */
+    max-width: 1200px;  /* Max width to avoid it becoming too wide */
     padding: 0 20px;  /* Padding on both sides */
 }
 
-/* Left-aligned button */
-.contact-button {
-    background-color: #ff7f50;  /* Coral color */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.contact-button:hover {
-    background-color: #ff5722; /* Darker coral on hover */
-}
-
-/* Center-aligned phone number */
-.phone-number {
-    text-align: center;
-    flex-grow: 1; /* Allow the phone number to take up available space */
-}
-
-.phone-number p {
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-/* Right-aligned logo */
+/* Left-aligned logo */
 .logo img {
     width: 120px;  /* Adjust logo size */
 }
 
+/* Right-aligned phone number */
+.phone-number {
+    display: flex;
+    align-items: center;  /* Vertically center the phone number */
+    text-align: right;
+}
+
+.phone-number i {
+    margin-right: 10px;  /* Space between the icon and the number */
+}
+
+.phone-number p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
 /* Media query for mobile screens */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .header-container {
         flex-direction: column;  /* Stack items vertically on small screens */
         align-items: center;     /* Center the items horizontally */
@@ -64,12 +55,7 @@
         margin-bottom: 10px;  /* Add space below logo */
     }
 
-    .contact-button {
-        margin-bottom: 10px;  /* Add margin between button and phone number */
-    }
-
     .phone-number {
-        flex-grow: 0;  /* Remove the flex-grow property to keep it centered */
         margin-bottom: 10px;  /* Add margin between phone number and logo */
     }
 }
