@@ -89,14 +89,14 @@
     display: none;
 }
 
-@media screen and (max-width: 960px) {
-
+@media screen and (max-width: 720px) {
 
     /* Make sure the parent container of the navbar is relative */
     .navbar-container {
         position: relative;
-        align-items: flex-start;
+        align-items: center;
         display: flex;
+        justify-content: space-between;
     }
 
     /* Menu should be hidden initially */
@@ -124,7 +124,7 @@
     /* Menu icon style */
     .menu-icon {
         display: block;
-        position: absolute;
+        /*position: absolute;*/
         top: 20px;  /* Adjust the icon position within the navbar */
         left: 20px; /* Align the menu icon to the left */
         font-size: 1.8rem;
@@ -157,8 +157,13 @@
 
     /* Hover effect for nav links */
     .nav-menu li a:hover {
-        background-color: #fff; /* Lighten background on hover */
-        color: #242424; /* Darken text on hover */
+        /*background-color: white; !* Lighten background on hover *!*/
+        color: var(--secondary-color); /* Darken text on hover */
+    }
+
+    /* Button for mobile */
+    .btn {
+        max-width: 15rem;
     }
 }
 

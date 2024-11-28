@@ -56,10 +56,10 @@
 }
 
 /* Primary button style */
-/*.btn--primary {*/
-/*    background-color: var(--button-color);*/
-/*    color: var(--text-color);*/
-/*}*/
+.btn--primary {
+    background-color: var(--button-color);
+    color: var(--text-color);
+}
 
 /* Medium size button */
 .btn--medium {
@@ -81,37 +81,37 @@
 }
 
 /* Responsive adjustments for small screens */
-@media (max-width: 768px) {
-    .btn {
-        font-size: 14px;  /* Adjust font size for smaller screens */
-        padding: 6px 15px; /* Adjust padding for smaller screens */
-    }
+/*@media (max-width: 720px) {*/
+/*    .btn {*/
+/*        font-size: 14px;  !* Adjust font size for smaller screens *!*/
+/*        padding: 6px 15px; !* Adjust padding for smaller screens *!*/
+/*    }*/
 
-    .btn--medium {
-        font-size: 16px;  /* Adjust font size for medium button */
-        padding: 6px 15px; /* Adjust padding for medium button */
-    }
+/*    .btn--medium {*/
+/*        font-size: 16px;  !* Adjust font size for medium button *!*/
+/*        padding: 6px 15px; !* Adjust padding for medium button *!*/
+/*    }*/
 
-    .btn--large {
-        font-size: 18px;  /* Adjust font size for large button */
-        padding: 8px 20px; /* Adjust padding for large button */
-    }
-}
+/*    .btn--large {*/
+/*        font-size: 18px;  !* Adjust font size for large button *!*/
+/*        padding: 8px 20px; !* Adjust padding for large button *!*/
+/*    }*/
+/*}*/
 
-/* Responsive adjustments for extra small screens (phones in portrait) */
-@media (max-width: 480px) {
-    .btn {
-        font-size: 12px;  /* Even smaller font size */
-        padding: 5px 12px; /* Smaller padding */
-    }
+/*!* Responsive adjustments for extra small screens (phones in portrait) *!*/
+/*@media (max-width: 480px) {*/
+/*    .btn {*/
+/*        font-size: 12px;  !* Even smaller font size *!*/
+/*        padding: 5px 12px; !* Smaller padding *!*/
+/*    }*/
 
-    .btn--medium {
-        font-size: 14px;  /* Adjust font size for medium button */
-        padding: 5px 12px; /* Adjust padding for medium button */
-    }
+/*    .btn--medium {*/
+/*        font-size: 14px;  !* Adjust font size for medium button *!*/
+/*        padding: 5px 12px; !* Adjust padding for medium button *!*/
+/*    }*/
 
-    .btn--large {
-        font-size: 16px;  /* Adjust font size for large button */
-        padding: 6px 15px; /* Adjust padding for large button */
-    }
-}
+/*    .btn--large {*/
+/*        font-size: 16px;  !* Adjust font size for large button *!*/
+/*        padding: 6px 15px; !* Adjust padding for large button *!*/
+/*    }*/
+/*}*/

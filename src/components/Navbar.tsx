@@ -69,6 +69,14 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
+
+                <Button
+                    buttonStyle="btn--primary"
+                    buttonSize="btn--large"
+                    buttonLink="/contact"
+                >
+                    Schedule a Tour
+                </Button>
             </div>
         </header>
     );
