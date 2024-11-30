@@ -9,7 +9,7 @@
     padding: 0 15px;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 999;
     border: black solid 1px;

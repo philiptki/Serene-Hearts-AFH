@@ -1,0 +1,135 @@
+@import "../variables.css";
+
+.contact {
+    background-color: var(--background-color);
+    /*padding: 2rem 0;*/
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
+    align-items: center;      /* Vertically center the header */
+}
+
+.contact-container {
+    background-color: var(--background-color);
+    display: flex;
+    /*flex-direction: row; !* Align sections side by side *!*/
+    /*max-height: 500px; !* Set a maximum height for the container (80% of viewport height) *!*/
+    /*overflow: hidden; !* Hide anything that overflows the container *!*/
+    /*align-items: center;*/
+    /*padding: 3rem;*/
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    /*max-width: 1200px;*/
+    max-height: 700px;
+
+}
+
+.contact-section {
+    display: flex;
+    background-color: var(--primary-color); /* Keep red background for the text section */
+    /*flex-direction: column; !* Vertical alignment for text *!*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-info {
+    /*background-color: green;*/
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 400px;
+    min-height: 300px;
+}
+
+.contact-image {
+    background-color: var(--background-color);
+    width: 100%; /* Fill container width */
+    height: 100%; /* Fill container height */
+    overflow: hidden; /* Ensure image is cropped if it exceeds the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+    object-position: center; /* Center the image */
+    max-height: 700px;
+    min-height: 400px;
+    border-top-left-radius: 15px;
+}
+
+
+.contact-title {
+    /*font-size: 24px;            !* Adjust font size *!*/
+    font-weight: normal;          /* Make the title bold */
+    color: var(--secondary-color);             /* Dark gray color */
+    text-align: left;         /* Center-align the title */
+    margin-bottom: 10px;        /* Space below the title */
+    text-transform: uppercase;  /* Uppercase for emphasis */
+    letter-spacing: 1px;        /* Space out letters slightly */
+}
+
+.contact-heading {
+    /*font-size: 36px;            !* Larger size for the heading *!*/
+    font-weight: bold;           /* Bold the heading */
+    color: var(--text-color);             /* Slightly darker gray for the heading */
+    text-align: left;         /* Center-align the heading */
+    margin-bottom: 10px;        /* Space below the heading */
+    line-height: 1.3;           /* Adjust line-height for readability */
+    /*white-space: nowrap; !* Prevent text from wrapping *!*/
+    /*font-family: 'Arial', sans-serif; !* Use a clean sans-serif font *!*/
+}
+
+.contact-description {
+    font-size: 18px;            /* Adjust font size */
+    color: #a3adbd;             /* Medium gray color for the text */
+    line-height: 1.7;           /* Line height for better readability */
+    text-align: left;         /* Center-align the paragraph */
+    /*max-width: 800px;           !* Max width for readability *!*/
+    margin-bottom: 20px;
+    /*white-space: nowrap;*/
+
+}
+
+@media (max-width: 720px) {
+    .contact-info {
+        background-color: red;
+        /*height: 200px;*/
+    }
+
+    .contact-title {
+        font-size: 20px; /* Smaller font size for tablets */
+    }
+
+    .contact-heading {
+        font-size: 28px; /* Smaller font size for tablets */
+    }
+
+    .contact-description {
+        font-size: 16px; /* Smaller font size for tablets */
+    }
+}
+
+/* Media query for very small screens (e.g., mobile devices) */
+@media (max-width: 480px) {
+    .contact-title {
+        font-size: 18px; /* Further reduced font size for small screens */
+    }
+
+    .contact-heading {
+        font-size: 24px; /* Further reduced font size for small screens */
+    }
+
+    .contact-description {
+        font-size: 14px; /* Further reduced font size for small screens */
+    }
+}
+
