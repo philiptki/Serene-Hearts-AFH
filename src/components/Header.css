@@ -35,11 +35,13 @@
 
 .phone-number i {
     margin-right: 10px;  /* Space between the icon and the number */
+    color: var(--secondary-color);
 }
 
 .phone-number p {
     margin: 0;
     font-size: 1.1rem;
+    letter-spacing: 1px;
 }
 
 /* Media query for mobile screens */

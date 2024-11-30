@@ -9,7 +9,7 @@
     padding: 0 15px;
     align-items: center;
     font-size: 1.2rem;
-    position: relative;
+    position: sticky; /* make nav bar stay on top, relative doesn't*/
     top: 0;
     z-index: 999;
     border: black solid 1px;
@@ -89,7 +89,11 @@
     display: none;
 }
 
-@media screen and (max-width: 720px) {
+.schedule-button Button{
+    /*letter-spacing: 1px;*/
+}
+
+@media screen and (max-width: 768px) {
 
     /* Make sure the parent container of the navbar is relative */
     .navbar-container {
@@ -144,12 +148,15 @@
     .nav-menu li {
         text-align: center;
         width: 100%; /* Ensure each link spans full width */
+        height: 50px;
     }
 
     .nav-menu li a {
+        font-size: 1rem;
         display: flex;
-        padding: 0;
-        width: 100%; /* Links span the full width */
+        padding-left: 20px;
+        /*padding: 0;*/
+        /*width: 100%; !* Links span the full width *!*/
         color: var(--primary-color); /* Set link color */
         text-decoration: none;
         background-color: var(--background-color); /* Match the background */
@@ -162,8 +169,9 @@
     }
 
     /* Button for mobile */
-    .btn {
-        max-width: 15rem;
+    .schedule-button Button{
+        width: 100%;
+        font-size: 1rem;
     }
 }
 

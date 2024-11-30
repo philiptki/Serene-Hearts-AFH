@@ -70,13 +70,22 @@ function Navbar() {
                     </li>
                 </ul>
 
-                <Button
-                    buttonStyle="btn--primary"
-                    buttonSize="btn--large"
-                    buttonLink="/contact"
-                >
-                    Schedule a Tour
-                </Button>
+                {/*<Button*/}
+                {/*    buttonStyle="btn--primary"*/}
+                {/*    buttonSize="btn--large"*/}
+                {/*    buttonLink="/contact"*/}
+                {/*>*/}
+                {/*    Schedule a Tour*/}
+                {/*</Button>*/}
+
+                <div className="schedule-button">
+                    <Button
+                        buttonLink="/contact"
+                    >
+                        Schedule a Tour
+                    </Button>
+                </div>
+
             </div>
         </header>
     );

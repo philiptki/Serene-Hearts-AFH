@@ -10,11 +10,6 @@ function Home() {
             {/*    <p>This is the homepage of our website.</p>*/}
             {/*</div>*/}
 
-
-            <Footer />
-
-            <Contact/>
-
             <Contact/>
 
             <Footer />

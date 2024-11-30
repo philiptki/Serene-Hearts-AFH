@@ -1,58 +1,24 @@
-/*@import "../variables.css";*/
-
-/*.btn {*/
-/*    padding: 8px 20px;*/
-/*    border-radius: 2px;*/
-/*    outline: none;*/
-/*    border: none;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*.btn--primary {*/
-/*    background-color: var(--button-color);*/
-/*    color: var(--text-color);*/
-/*    !*border: 1px solid var(--primary);*!*/
-/*}*/
-
-/*!*.btn--outline {*!*/
-/*!*    background-color: transparent;*!*/
-/*!*    color: #fff;*!*/
-/*!*    padding: 8px 20px;*!*/
-/*!*    border: 1px solid var(--primary);*!*/
-/*!*    transition: all 0.3s ease-out;*!*/
-/*!*}*!*/
-
-/*.btn--medium {*/
-/*    padding: 8px 20px;*/
-/*    font-size: 18px;*/
-/*}*/
-
-/*.btn--large {*/
-/*    padding: 12px 26px;*/
-/*    font-size: 20px;*/
-/*}*/
-
-/*.btn--large:hover,*/
-/*.btn--medium:hover {*/
-/*    transition: all 0.3s ease-out;*/
-/*    background: var(--button-hover);*/
-/*    color: var(--text-color);*/
-/*    transition: 250ms;*/
-/*}*/
-
-
 @import "../variables.css";
 
 .btn {
-    padding: 8px 20px;
+    min-width: 150px;      /* Minimum width */
+    min-height: 40px;      /* Minimum height */
+    padding: 1rem 2rem;
     border-radius: 15px;
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 16px; /* Default font size */
+    font-size: 18px; /* Default font size */
     transition: all 0.3s ease-out; /* Smooth hover transition */
     background-color: var(--button-color);
     color: var(--text-color);
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background: var(--button-hover);
+    color: var(--text-color);
+    transform: translateY(-5px);
 }
 
 /* Primary button style */
@@ -81,22 +47,22 @@
 }
 
 /* Responsive adjustments for small screens */
-/*@media (max-width: 720px) {*/
-/*    .btn {*/
-/*        font-size: 14px;  !* Adjust font size for smaller screens *!*/
-/*        padding: 6px 15px; !* Adjust padding for smaller screens *!*/
-/*    }*/
+@media (max-width: 720px) {
+    .btn {
+        font-size: 16px;  /* Adjust font size for smaller screens */
+        padding: 6px 15px; /* Adjust padding for smaller screens */
+    }
 
-/*    .btn--medium {*/
-/*        font-size: 16px;  !* Adjust font size for medium button *!*/
-/*        padding: 6px 15px; !* Adjust padding for medium button *!*/
-/*    }*/
+    .btn--medium {
+        font-size: 16px;  /* Adjust font size for medium button */
+        padding: 6px 15px; /* Adjust padding for medium button */
+    }
 
-/*    .btn--large {*/
-/*        font-size: 18px;  !* Adjust font size for large button *!*/
-/*        padding: 8px 20px; !* Adjust padding for large button *!*/
-/*    }*/
-/*}*/
+    .btn--large {
+        font-size: 18px;  /* Adjust font size for large button */
+        padding: 8px 20px; /* Adjust padding for large button */
+    }
+}
 
 /*!* Responsive adjustments for extra small screens (phones in portrait) *!*/
 /*@media (max-width: 480px) {*/

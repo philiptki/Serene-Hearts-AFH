@@ -13,7 +13,7 @@
 .contact-container {
     background-color: var(--background-color);
     display: flex;
-    /*flex-direction: row; !* Align sections side by side *!*/
+    flex-direction: row; /* Align sections side by side */
     /*max-height: 500px; !* Set a maximum height for the container (80% of viewport height) *!*/
     /*overflow: hidden; !* Hide anything that overflows the container *!*/
     /*align-items: center;*/
@@ -43,7 +43,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     max-width: 400px;
-    min-height: 300px;
+    /*min-height: 300px;*/
+    height: 600px;
 }
 
 .contact-image {
@@ -58,17 +59,18 @@
 
 .contact-image img {
     width: 100%; /* Make the image fill the container */
-    height: 100%; /* Make the image fill the container */
+    /*height: 100%; !* Make the image fill the container *!*/
     object-fit: cover; /* Ensure the image covers the container without stretching */
     object-position: center; /* Center the image */
-    max-height: 700px;
-    min-height: 400px;
+    /*max-height: 700px;*/
+    height: 700px;
+    min-height: 500px;
     border-top-left-radius: 15px;
 }
 
 
 .contact-title {
-    /*font-size: 24px;            !* Adjust font size *!*/
+    font-size: 22px;            /* Adjust font size */
     font-weight: normal;          /* Make the title bold */
     color: var(--secondary-color);             /* Dark gray color */
     text-align: left;         /* Center-align the title */
@@ -78,7 +80,7 @@
 }
 
 .contact-heading {
-    /*font-size: 36px;            !* Larger size for the heading *!*/
+    font-size: 36px;            /* Larger size for the heading */
     font-weight: bold;           /* Bold the heading */
     color: var(--text-color);             /* Slightly darker gray for the heading */
     text-align: left;         /* Center-align the heading */
@@ -96,40 +98,94 @@
     /*max-width: 800px;           !* Max width for readability *!*/
     margin-bottom: 20px;
     /*white-space: nowrap;*/
+}
+
+.contact-buttons {
+    /*background-color: var(--background-color);*/
+    font-size: 1rem;
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contact-buttons a,
+.contact-buttons i {
+    text-decoration: none;  /* Remove underline */
+    color: var(--text-color);         /* Inherit color from parent (button) */
+    font-size: 1rem;
+    margin-right: 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;  /* Uppercase for emphasis */
 
 }
 
-@media (max-width: 720px) {
-    .contact-info {
-        background-color: red;
-        /*height: 200px;*/
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        /*height: auto;*/
+        /*height: 100px;*/
+        /*flex-wrap: wrap; !* Allow items to wrap *!*/
+
+    }
+
+    .contact-section {
+        /*background-color: red;*/
+        flex-direction: column; /* Make sure the sections stack vertically */
+        height: 400px;
     }
 
     .contact-title {
-        font-size: 20px; /* Smaller font size for tablets */
-    }
-
-    .contact-heading {
-        font-size: 28px; /* Smaller font size for tablets */
-    }
-
-    .contact-description {
         font-size: 16px; /* Smaller font size for tablets */
     }
-}
-
-/* Media query for very small screens (e.g., mobile devices) */
-@media (max-width: 480px) {
-    .contact-title {
-        font-size: 18px; /* Further reduced font size for small screens */
-    }
 
     .contact-heading {
-        font-size: 24px; /* Further reduced font size for small screens */
+        font-size: 30px; /* Smaller font size for tablets */
     }
 
     .contact-description {
-        font-size: 14px; /* Further reduced font size for small screens */
+        font-size: 14px; /* Smaller font size for tablets */
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        justify-content: center;          /* Vertically center the buttons */
+        align-items: center;              /* Horizontally center the buttons */
+        padding-bottom: 1rem;
+        /*background-color: red;*/
+    }
+
+    .contact-buttons a,
+    .contact-buttons i {
+        font-size: .8rem;
+        /*background-color: red;*/
+    }
+
+    .contact-image img {
+        width: auto; /* Allow the image to display at its full width */
+        height: auto; /* Allow the image to display at its full height */
+        max-width: 100%; /* Ensure the image width does not exceed the container */
+        max-height: 100%; /* Ensure the image height does not exceed the container */
     }
 }
+
+/*!* Media query for very small screens (e.g., mobile devices) *!*/
+/*@media (max-width: 480px) {*/
+/*    .contact-info {*/
+/*        background-color: red;*/
+/*    }*/
+
+/*    .contact-title {*/
+/*        font-size: 18px; !* Further reduced font size for small screens *!*/
+/*    }*/
+
+/*    .contact-heading {*/
+/*        font-size: 30px; !* Further reduced font size for small screens *!*/
+/*    }*/
+
+/*    .contact-description {*/
+/*        font-size: 14px; !* Further reduced font size for small screens *!*/
+/*    }*/
+
+/*}*/
 

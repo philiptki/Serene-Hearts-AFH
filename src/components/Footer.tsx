@@ -26,8 +26,8 @@ function Footer() {
                     {/* Contact Us */}
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <p><i className="fa-solid fa-envelope"></i>contact@serenehearts.com</p>
-                        <p><i className="fa-solid fa-phone"></i>(206) 429-2064</p>
+                        <p><i className="fa-solid fa-envelope"></i>sereneheartsAFH@outlook.com</p>
+                        <p><i className="fa-solid fa-phone"></i>206-429-2064</p>
                         <p><i className="fa-solid fa-location-dot"></i>22620 24th Ave S, Des Moines, WA 98198</p>
                     </div>
                 </div>

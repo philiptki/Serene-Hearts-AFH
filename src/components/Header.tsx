@@ -14,7 +14,7 @@ function Header() {
                 {/* Center Phone Number */}
                 <div className="phone-number">
                     <i className="fa-solid fa-phone"></i>
-                    <p>(206) 429-2064</p>
+                    <p>206-429-2064</p>
                 </div>
 
 

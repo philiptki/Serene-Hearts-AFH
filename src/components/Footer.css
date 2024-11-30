@@ -84,7 +84,7 @@
     white-space: nowrap; /* Prevent the text from wrapping */
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .footer-links {
         padding-top: 2rem;
 
