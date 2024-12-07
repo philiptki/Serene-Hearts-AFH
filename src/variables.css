@@ -3,8 +3,11 @@
     --primary-color: #354ba6;    /* Blue */
     --secondary-color: #2ecc71;  /* Green */
     --accent-color: #e74c3c;     /* Red */
-    --text-color: #ffffff;       /* Dark text */
+    --text-color: #ffffff;
+    --text-color-dark: #555;       /* Dark text */
     --link-color: #2980b9;       /* Link color */
     --button-color: #35be71;     /* Orange */
     --button-hover: #11803d;     /* Dark orange */
+    --footer-color: #19204d;
+    --card: #ffffff
 }
