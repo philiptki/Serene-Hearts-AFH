@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Serene-Hearts-AFH/static/css/main.b6529b5f.css",
-    "main.js": "/Serene-Hearts-AFH/static/js/main.28003cae.js",
+    "main.css": "/Serene-Hearts-AFH/static/css/main.841c3094.css",
+    "main.js": "/Serene-Hearts-AFH/static/js/main.9da03d1e.js",
     "index.html": "/Serene-Hearts-AFH/index.html",
-    "main.b6529b5f.css.map": "/Serene-Hearts-AFH/static/css/main.b6529b5f.css.map",
-    "main.28003cae.js.map": "/Serene-Hearts-AFH/static/js/main.28003cae.js.map"
+    "main.841c3094.css.map": "/Serene-Hearts-AFH/static/css/main.841c3094.css.map",
+    "main.9da03d1e.js.map": "/Serene-Hearts-AFH/static/js/main.9da03d1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6529b5f.css",
-    "static/js/main.28003cae.js"
+    "static/css/main.841c3094.css",
+    "static/js/main.9da03d1e.js"
   ]
 }
