@@ -37,7 +37,7 @@ function Contact() {
                     <div className="contact-image">
                         <img
                             // src="https://via.placeholder.com/600x400" // Replace with your image URL or file path
-                            src="Serene-Hearts-AFH/images/contact.jpg"
+                            src="/images/contact.jpg"
                             alt="Nurse assisting a patient"
                             // className="contact-image"
                         />

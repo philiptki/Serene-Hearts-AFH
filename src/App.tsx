@@ -17,7 +17,7 @@ function App() {
           <Router>
               <Navbar />
               <Routes>
-                  <Route path='/Serene-Hearts-AFH' element={<Home/>}/>
+                  <Route path='/' element={<Home/>}/>
               </Routes>
           </Router>
 

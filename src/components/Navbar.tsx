@@ -34,8 +34,8 @@ function Navbar() {
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
                         <Link
-                            to="/Serene-Hearts-AFH"
-                            className={`nav-links ${location.pathname === '/Serene-Hearts-AFH' ? 'active' : ''}`}  // Add active class when the path matches
+                            to="/"
+                            className={`nav-links ${location.pathname === '/' ? 'active' : ''}`}  // Add active class when the path matches
                             onClick={closeMobileMenu}
                         >
                             Home
