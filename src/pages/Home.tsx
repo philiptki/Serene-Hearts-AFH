@@ -2,14 +2,13 @@ import React from "react";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import Service from "../components/Service";
+import Intro from "../components/Intro";
 
 function Home() {
     return (
         <div>
-            {/*<div>*/}
-            {/*    <h1>Welcome to the Home Page!</h1>*/}
-            {/*    <p>This is the homepage of our website.</p>*/}
-            {/*</div>*/}
+
+            <Intro/>
 
             <Service/>
 

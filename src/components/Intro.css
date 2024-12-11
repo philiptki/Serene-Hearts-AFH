@@ -1,0 +1,143 @@
+/*.intro {*/
+/*    !*background-color: red;*!*/
+/*    display: flex;               !* Flexbox to center content *!*/
+/*    justify-content: center;     !* Horizontally center *!*/
+/*    align-items: center;         !* Vertically center *!*/
+/*    min-height: 500px;*/
+/*    max-height: 800px;*/
+/*    position: relative;*/
+/*}*/
+
+/*!* Styling for the intro-container *!*/
+/*.intro-container {*/
+/*    background-color: blue;*/
+/*    width: 100%;                 !* Make sure the container takes the full width *!*/
+/*    height: 100%;*/
+/*    max-width: 1200px;*/
+/*    display: flex;*/
+/*    justify-content: flex-start;     !* Center the .intro-section horizontally *!*/
+/*    align-items: center;         !* Center the .intro-section vertically *!*/
+/*    padding: 20px;               !* Optional padding inside the container *!*/
+/*    position: relative;*/
+/*}*/
+
+/*!* Styling for the intro-section *!*/
+/*.intro-section {*/
+/*    background-color: green;*/
+/*    text-align: left;          !* Center the text inside the section *!*/
+/*    max-width: 600px;            !* Set a maximum width for the content *!*/
+/*    width: 100%;                 !* Allow the section to stretch to 100% of the container *!*/
+/*    padding: 20px;               !* Optional padding inside the section *!*/
+/*}*/
+
+/*!* Optional styling for the title *!*/
+/*.intro-title {*/
+/*    font-size: 2rem;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*!* Optional styling for the description or additional text *!*/
+/*.intro-description {*/
+/*    font-size: 1.25rem;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.intro img {*/
+/*    position: absolute;          !* Absolutely position the image in the container *!*/
+/*    width: 100%;*/
+/*    height: 100%;                 !* Cover the entire container *!*/
+/*    object-fit: cover;           !* Cover the container without distortion *!*/
+/*    object-position: center;     !* Center the image *!*/
+/*}*/
+
+
+.intro {
+    display: flex;               /* Flexbox to center content */
+    justify-content: center;     /* Horizontally center */
+    align-items: center;         /* Vertically center */
+    position: relative;
+    min-height: 800px;           /* Set a minimum height */
+    max-height: 800px;
+    height: auto;                /* Allow the height to expand based on the content */
+    width: 100%;                 /* Full width of the container */
+}
+
+/* The image styling */
+.intro img {
+    position: absolute;          /* Absolutely position the image inside the container */
+    width: 100%;
+    height: 100%;                 /* Make image cover the full container height */
+    object-fit: cover;           /* Ensure the image covers the container without distortion */
+    object-position: center;     /* Center the image */
+    z-index: -1;                 /* Ensure the image stays behind the content */
+}
+
+/* Styling for the intro-container */
+.intro-container {
+    /*background-color: blue;*/
+    width: 100%;                 /* Make sure the container takes the full width */
+    height: auto;                /* Allow the container height to expand based on content */
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;         /* Vertically center the content */
+    padding: 20px;               /* Optional padding inside the container */
+    position: relative;
+}
+
+/* Styling for the intro-section */
+.intro-section {
+    background-color: rgb(53, 75, 166, 0.7);
+    text-align: left;            /* Align text to the left */
+    max-width: 600px;            /* Set a maximum width for the content */
+    width: 100%;                 /* Ensure the section stretches to full width of container */
+    padding: 20px;               /* Optional padding inside the section */
+    border-radius: 40px;
+}
+
+/* Optional styling for the title */
+.intro-title {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+/* Optional styling for the description or additional text */
+.intro-heading {
+    color: var(--text-color);
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.intro-section button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        min-height: 500px; /* Decrease the minimum height for smaller screens */
+    }
+
+    /* Adjust the title size */
+    .intro-title {
+        font-size: 1.1rem; /* Reduce the font size for the title */
+    }
+
+    /* Adjust the heading size */
+    .intro-heading {
+        font-size: 1.5rem; /* Reduce the font size for the heading */
+        margin-bottom: 20px; /* Reduce margin below the heading */
+    }
+
+    /* Adjust the button text */
+    .intro-section button {
+        margin-bottom: 10px;
+        font-size: 1.1rem; /* Smaller font size for button text */
+        width: 200px;
+    }
+}
