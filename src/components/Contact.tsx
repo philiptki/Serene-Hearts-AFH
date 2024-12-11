@@ -4,7 +4,7 @@ import {Button} from "./Button";
 
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id = "contact">
             <div className="contact-container">
                 {/* Left Section */}
                 <div className="contact-section">

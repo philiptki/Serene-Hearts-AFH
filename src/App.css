@@ -4,6 +4,10 @@ body {
   background: var(--background-color);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*Soft Blue: #4A90E2
 Mint Green: #A5D6A7
 Light Gray: #F5F5F5

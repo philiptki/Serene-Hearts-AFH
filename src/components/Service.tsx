@@ -5,18 +5,18 @@ import Card from "./Card";
 function Service() {
     return (
 
-        <div className="service">
+        <div className="service" id = "services">
             <div className="service-container">
 
                 <div className="text-container">
                     <h3 className="text-title">Our Services</h3>
                     <h1 className="text-heading">Personal Care That Makes You Feel at Home</h1>
                     <p className="text-description">
-                        At Gateway Comfort Care, we recognize that every resident has their own unique needs.
-                        That’s why we offer personalized services designed to cater to each individual’s specific
-                        requirements. Whether it’s helping with daily living tasks, providing nutritious meals,
-                        managing housekeeping, offering transportation, or organizing a variety of recreational and
-                        social activities, we are dedicated to creating a nurturing and engaging environment for all.
+                        We at Serene Hearts Adult Care understand that every resident is unique, which is why we
+                        provide services tailored to meet their individual needs. Whether it’s offering assistance
+                        with daily activities, preparing balanced meals, managing housekeeping, providing
+                        transportation, or engaging social and recreational programs, our goal is to create a
+                        supportive and vibrant environment for each of our resident.
                     </p>
 
                 </div>

@@ -93,6 +93,12 @@
     /*letter-spacing: 1px;*/
 }
 
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+
 @media screen and (max-width: 768px) {
 
     /* Make sure the parent container of the navbar is relative */

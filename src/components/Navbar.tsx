@@ -35,20 +35,20 @@ function Navbar() {
                     <li className='nav-item'>
                         <Link
                             to="/"
-                            className={`nav-links ${location.pathname === '/' ? 'active' : ''}`}  // Add active class when the path matches
+                            className={`nav-links ${location.pathname === '/' && location.hash === '' ? 'active' : ''}`}
                             onClick={closeMobileMenu}
                         >
                             Home
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link
-                            to="/services"
-                            className={`nav-links ${location.pathname === '/services' ? 'active' : ''}`}  // Add active class
+                        <a
+                            href="#services"
+                            className={`nav-links ${location.hash === '#services' ? 'active' : ''}`}  // Add active class
                             onClick={closeMobileMenu}
                         >
                             Services
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item'>
                         <Link
@@ -60,13 +60,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link
-                            to="/contact"
-                            className={`nav-links ${location.pathname === '/contact' ? 'active' : ''}`}  // Add active class
+                        <a
+                            href="#contact"
+                            className={`nav-links ${location.hash === '#contact' ? 'active' : ''}`} // Checking the hash to add the active class
                             onClick={closeMobileMenu}
                         >
                             Contact
-                        </Link>
+                        </a>
+
                     </li>
                 </ul>
 
@@ -80,9 +81,12 @@ function Navbar() {
 
                 <div className="schedule-button">
                     <Button
-                        buttonLink="/contact"
+                        // buttonLink="/contact"
                     >
-                        Schedule a Tour
+                        {/*Schedule a Tour*/}
+                        <a href="#contact"> {/* Scroll to the section with id="contact" */}
+                            Schedule a Tour
+                        </a>
                     </Button>
                 </div>
 

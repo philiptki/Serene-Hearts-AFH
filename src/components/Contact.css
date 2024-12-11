@@ -126,13 +126,13 @@
         /*height: auto;*/
         /*height: 100px;*/
         /*flex-wrap: wrap; !* Allow items to wrap *!*/
-
     }
 
     .contact-section {
         /*background-color: red;*/
         flex-direction: column; /* Make sure the sections stack vertically */
         height: 400px;
+        padding-top: 20px;
     }
 
     .contact-title {
@@ -161,12 +161,15 @@
         /*background-color: red;*/
     }
 
+    .contact-image {
+        height: 350px;
+    }
+
     .contact-image img {
         width: auto; /* Allow the image to display at its full width */
         height: auto; /* Allow the image to display at its full height */
         max-width: 100%; /* Ensure the image width does not exceed the container */
-        max-height: 100%; /* Ensure the image height does not exceed the container */
-    }
+        max-height: 100%; /* Ensure the image height does not exceed the container */}
 }
 
 /*!* Media query for very small screens (e.g., mobile devices) *!*/
