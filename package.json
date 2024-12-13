@@ -1,7 +1,7 @@
 {
   "name": "serene-hearts-afh",
   "version": "0.1.0",
-  "homepage": "https://serene-hearts.com/Serene-Hearts-AFH",
+  "homepage": "https://serene-hearts.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

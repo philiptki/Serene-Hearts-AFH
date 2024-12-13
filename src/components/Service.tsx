@@ -27,7 +27,7 @@ function Service() {
 
                         <div className="grid-item">
                             <Card
-                                image="/Serene-Hearts-AFH/images/contact.jpg"
+                                image="/images/contact.jpg"
                                 icon="fa-solid fa-bath"
                                 title="Support with Personal Daily Activities"
                                 description="Our experienced staff is here to help with essential daily activities
@@ -39,7 +39,7 @@ function Service() {
 
                         <div className="grid-item">
                             <Card
-                                image="/Serene-Hearts-AFH/images/contact.jpg"
+                                image="/images/contact.jpg"
                                 icon="fa-solid fa-utensils"
                                 title="Personal Meal Plans and Dietary Assistance"
                                 description="We serve wholesome, delicious meals crafted from fresh, high-quality
@@ -50,7 +50,7 @@ function Service() {
 
                         <div className="grid-item">
                             <Card
-                                image="/Serene-Hearts-AFH/images/contact.jpg"
+                                image="/images/contact.jpg"
                                 icon="fa-solid fa-person-walking"
                                 title="Engaging Daily Activities"
                                 description="Our engaging activity schedule includes exercise, arts and crafts,
@@ -62,7 +62,7 @@ function Service() {
 
                         <div className="grid-item">
                             <Card
-                                image="/Serene-Hearts-AFH/images/contact.jpg"
+                                image="/images/contact.jpg"
                                 icon="fa-solid fa-heart"
                                 title="Unique Care Plans for Every Individual"
                                 description="Each resident is offered a care plan that is specifically designed to
@@ -74,7 +74,7 @@ function Service() {
 
                         <div className="grid-item">
                             <Card
-                                image="/Serene-Hearts-AFH/images/contact.jpg"
+                                image="/images/contact.jpg"
                                 icon="fa-solid fa-shirt"
                                 title="Housekeeping and Laundry Services"
                                 description="We provide detailed housekeeping and laundry services to ensure a
@@ -86,7 +86,7 @@ function Service() {
 
                         <div className="grid-item">
                             <Card
-                                image="/Serene-Hearts-AFH/images/contact.jpg"
+                                image="/images/contact.jpg"
                                 icon="fa-solid fa-wheelchair"
                                 title="Transportation Assistance for Appointments and Activities"
                                 description="For all medical appointments, we provide safe and dependable

@@ -16,10 +16,10 @@ function Footer() {
                     {/* Sitemap */}
                     <div className='footer-link-items'>
                         <h2>Sitemap</h2>
-                        <Link to='/'><i className="fa-solid fa-caret-right"></i> Home</Link>
-                        <Link to='/services'><i className="fa-solid fa-caret-right"></i> Services</Link>
-                        <Link to='/about'><i className="fa-solid fa-caret-right"></i> About</Link>
-                        <Link to='/contact'><i className="fa-solid fa-caret-right"></i> Contact</Link>
+                        <Link to='/' onClick={() => {window.scrollTo(0,0)}} ><i className="fa-solid fa-caret-right"></i> Home</Link>
+                        <a href='#services'><i className="fa-solid fa-caret-right"></i> Services</a>
+                        {/*<Link to='/about'><i className="fa-solid fa-caret-right"></i> About</Link>*/}
+                        <a href='#contact'><i className="fa-solid fa-caret-right"></i> Contact</a>
                     </div>
 
 
