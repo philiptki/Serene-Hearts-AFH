@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Serene-Hearts-AFH/static/css/main.ba8e7213.css",
-    "main.js": "/Serene-Hearts-AFH/static/js/main.c32ac226.js",
-    "index.html": "/Serene-Hearts-AFH/index.html",
-    "main.ba8e7213.css.map": "/Serene-Hearts-AFH/static/css/main.ba8e7213.css.map",
-    "main.c32ac226.js.map": "/Serene-Hearts-AFH/static/js/main.c32ac226.js.map"
+    "main.css": "/static/css/main.ba8e7213.css",
+    "main.js": "/static/js/main.c32ac226.js",
+    "index.html": "/index.html",
+    "main.ba8e7213.css.map": "/static/css/main.ba8e7213.css.map",
+    "main.c32ac226.js.map": "/static/js/main.c32ac226.js.map"
   },
   "entrypoints": [
     "static/css/main.ba8e7213.css",
