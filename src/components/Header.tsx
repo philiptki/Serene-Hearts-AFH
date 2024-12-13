@@ -8,7 +8,7 @@ function Header() {
 
                 {/* Logo */}
                 <div className="logo">
-                    <img src="logo.png" alt="SERENE HEARTS Logo" />
+                    <img src="/images/logo1.png" alt="SERENE HEARTS Logo" />
                 </div>
 
                 {/* Center Phone Number */}
@@ -16,6 +16,7 @@ function Header() {
                     <i className="fa-solid fa-phone"></i>
                     <p>206-429-2064</p>
                 </div>
+
 
 
             </div>

@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer-container'>
             {/* logo section */}
             <div className="footer-logo">
-                <img src="logo.png" alt="SERENE HEARTS Logo"/>
+                <img src="/images/logo1.png" alt="SERENE HEARTS Logo"/>
             </div>
 
             {/* Footer Links */}
@@ -18,7 +18,7 @@ function Footer() {
                         <h2>Sitemap</h2>
                         <Link to='/' onClick={() => {window.scrollTo(0,0)}} ><i className="fa-solid fa-caret-right"></i> Home</Link>
                         <a href='#services'><i className="fa-solid fa-caret-right"></i> Services</a>
-                        {/*<Link to='/about'><i className="fa-solid fa-caret-right"></i> About</Link>*/}
+                        <a href='#about'><i className="fa-solid fa-caret-right"></i> About</a>
                         <a href='#contact'><i className="fa-solid fa-caret-right"></i> Contact</a>
                     </div>
 

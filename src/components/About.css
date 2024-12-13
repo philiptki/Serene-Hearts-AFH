@@ -1,0 +1,170 @@
+@import "../variables.css";
+
+.about {
+    background-color: var(--primary-color);
+    /*background-color: red;*/
+    /*padding: 2rem 0;*/
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
+    align-items: center;      /* Vertically center the header */
+}
+
+.about-container {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: row; /* Align sections side by side */
+    /*max-height: 500px; !* Set a maximum height for the container (80% of viewport height) *!*/
+    /*overflow: hidden; !* Hide anything that overflows the container *!*/
+    /*align-items: center;*/
+    /*padding: 3rem;*/
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    /*max-width: 1200px;*/
+    max-height: 700px;
+
+}
+
+.about-section {
+    display: flex;
+    background-color: var(--primary-color); /* Keep red background for the text section */
+    /*flex-direction: column; !* Vertical alignment for text *!*/
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about-info {
+    /*background-color: green;*/
+    /*padding: 2rem;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 700px;
+    /*min-height: 300px;*/
+    /*height: 600px;*/
+}
+
+/*.about-image {*/
+/*    background-color: var(--background-color);*/
+/*    width: 100%; !* Fill container width *!*/
+/*    height: 100%; !* Fill container height *!*/
+/*    overflow: hidden; !* Ensure image is cropped if it exceeds the container *!*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.about-image img {*/
+/*    width: 100%; !* Make the image fill the container *!*/
+/*    !*height: 100%; !* Make the image fill the container *!*!*/
+/*    object-fit: cover; !* Ensure the image covers the container without stretching *!*/
+/*    object-position: center; !* Center the image *!*/
+/*    !*max-height: 700px;*!*/
+/*    height: 600px;*/
+/*    !*min-height: 500px;*!*/
+/*}*/
+
+
+.about-title {
+    font-size: 22px;            /* Adjust font size */
+    font-weight: normal;          /* Make the title bold */
+    color: var(--secondary-color);             /* Dark gray color */
+    text-align: left;         /* Center-align the title */
+    margin-bottom: 10px;        /* Space below the title */
+    text-transform: uppercase;  /* Uppercase for emphasis */
+    letter-spacing: 1px;        /* Space out letters slightly */
+}
+
+.about-heading {
+    font-size: 36px;            /* Larger size for the heading */
+    font-weight: bold;           /* Bold the heading */
+    color: var(--text-color);             /* Slightly darker gray for the heading */
+    text-align: left;         /* Center-align the heading */
+    margin-bottom: 10px;        /* Space below the heading */
+    line-height: 1.3;           /* Adjust line-height for readability */
+    /*white-space: nowrap; !* Prevent text from wrapping *!*/
+    /*font-family: 'Arial', sans-serif; !* Use a clean sans-serif font *!*/
+}
+
+.about-description {
+    font-size: 18px;            /* Adjust font size */
+    color: #a3adbd;             /* Medium gray color for the text */
+    line-height: 1.7;           /* Line height for better readability */
+    text-align: left;         /* Center-align the paragraph */
+    /*max-width: 800px;           !* Max width for readability *!*/
+    margin-bottom: 20px;
+    /*white-space: nowrap;*/
+}
+
+@media (max-width: 768px) {
+
+    .about {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        /*height: auto;*/
+        /*height: 100px;*/
+        /*flex-wrap: wrap; !* Allow items to wrap *!*/
+    }
+
+    .about-section {
+        /*background-color: red;*/
+        flex-direction: column; /* Make sure the sections stack vertically */
+        /*height: 400px;*/
+        /*padding-top: 20px;*/
+    }
+
+    .about-title {
+        font-size: 16px; /* Smaller font size for tablets */
+    }
+
+    .about-heading {
+        font-size: 25px; /* Smaller font size for tablets */
+    }
+
+    .about-description {
+        font-size: 14px; /* Smaller font size for tablets */
+    }
+
+    .contact-image {
+        height: 350px;
+    }
+
+    .contact-image img {
+        width: auto; /* Allow the image to display at its full width */
+        height: auto; /* Allow the image to display at its full height */
+        max-width: 100%; /* Ensure the image width does not exceed the container */
+        max-height: 100%; /* Ensure the image height does not exceed the container */}
+}
+
+/*!* Media query for very small screens (e.g., mobile devices) *!*/
+/*@media (max-width: 480px) {*/
+/*    .contact-info {*/
+/*        background-color: red;*/
+/*    }*/
+
+/*    .contact-title {*/
+/*        font-size: 18px; !* Further reduced font size for small screens *!*/
+/*    }*/
+
+/*    .contact-heading {*/
+/*        font-size: 30px; !* Further reduced font size for small screens *!*/
+/*    }*/
+
+/*    .contact-description {*/
+/*        font-size: 14px; !* Further reduced font size for small screens *!*/
+/*    }*/
+
+/*}*/
+

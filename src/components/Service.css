@@ -84,6 +84,11 @@
         gap: 1rem;
     }
 
+    .text-container {
+        /*padding: 0;*/
+        padding-top: 0;
+    }
+
     .text-description {
         text-align: left;
     }

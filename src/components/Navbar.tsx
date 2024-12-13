@@ -53,15 +53,15 @@ function Navbar() {
                             Services
                         </a>
                     </li>
-                    {/*<li className='nav-item'>*/}
-                    {/*    <Link*/}
-                    {/*        to="/about"*/}
-                    {/*        className={`nav-links ${location.pathname === '/about' ? 'active' : ''}`}  // Add active class*/}
-                    {/*        onClick={closeMobileMenu}*/}
-                    {/*    >*/}
-                    {/*        About*/}
-                    {/*    </Link>*/}
-                    {/*</li>*/}
+                    <li className='nav-item'>
+                        <a
+                            href="#about"
+                            className={`nav-links ${location.pathname === '/about' ? 'active' : ''}`}  // Add active class
+                            onClick={closeMobileMenu}
+                        >
+                            About
+                        </a>
+                    </li>
                     <li className='nav-item'>
                         <a
                             href="#contact"

@@ -15,10 +15,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-
     margin-bottom: 24px;
-    padding: 24px;
-    color: #fff;
+    /*padding: 24px;*/
+    /*color: #fff;*/
+}
+
+.footer-logo img {
+    width: 320px;
+    height: 140px;
 }
 
 .footer-links {
@@ -107,5 +111,14 @@
 
     .footer-copyright {
         font-size: 0.8rem; /* Further reduce font size on very small screens */
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+    }
+
+    .footer-logo img {
+        width: 300px;
+        height: 130px;
     }
 }
