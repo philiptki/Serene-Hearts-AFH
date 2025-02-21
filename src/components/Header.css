@@ -31,7 +31,7 @@
 
 /* Left-aligned logo */
 .logo img {
-    width: 230px;  /* Adjust logo size */
+    width: 220px;  /* Adjust logo size */
     height: 100px;
 }
 
@@ -44,13 +44,19 @@
 
 .phone-number i {
     margin-right: 10px;  /* Space between the icon and the number */
+    font-size: 1.4rem;
     color: var(--secondary-color);
 }
 
 .phone-number p {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     letter-spacing: 1px;
+}
+
+.phone-number p:hover {
+    color: var(--secondary-color);
+    transition: 0.3s ease-out;
 }
 
 /* Media query for mobile screens */
@@ -69,7 +75,7 @@
     .logo img {
         /*background-color: red;*/
         /*height: 90px;*/
-        width: 240px;  /* Adjust logo size for mobile */
+        width: 220px;  /* Adjust logo size for mobile */
         /*margin-bottom: 10px;  !* Add space below logo *!*/
     }
 

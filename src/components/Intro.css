@@ -107,14 +107,14 @@
 .intro-heading {
     color: var(--text-color);
     font-size: 3rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .intro-section button {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.4rem;
-    letter-spacing: 1px;
+    letter-spacing: .8px;
     text-transform: uppercase;
 }
 
@@ -131,7 +131,7 @@
     /* Adjust the heading size */
     .intro-heading {
         font-size: 1.5rem; /* Reduce the font size for the heading */
-        margin-bottom: 20px; /* Reduce margin below the heading */
+        margin-bottom: 10px; /* Reduce margin below the heading */
     }
 
     /* Adjust the button text */
