@@ -7,7 +7,7 @@ function Intro() {
 
         <div className="intro" id="intro">
 
-            <img src="/images/contact.jpg"/>
+            <img src="/Serene-Hearts-AFH/images/contact.jpg"/>
 
 
             <div className="intro-container">
