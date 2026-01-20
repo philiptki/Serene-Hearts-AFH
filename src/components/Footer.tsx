@@ -7,7 +7,7 @@ function Footer() {
         <div className='footer-container'>
             {/* logo section */}
             <div className="footer-logo">
-                <img src="/images/logo1.png" alt="SERENE HEARTS Logo"/>
+                <img src="/Serene-Hearts-AFH/images/logo1.png" alt="SERENE HEARTS Logo"/>
             </div>
 
             {/* Footer Links */}
