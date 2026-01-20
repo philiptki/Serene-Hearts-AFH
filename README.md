@@ -1,49 +1,102 @@
-https://www.youtube.com/watch?v=Q9n2mLqXFpU
-For making changes on master to then reflect on on pages branch
+<!-- Header Section -->
+<div align="center">
 
-# Getting Started with Create React App
+# 🏡 Serene Hearts AFH
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Compassionate Care, Comfortable Living**
 
-## Available Scripts
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]()
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📖 Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Serene Hearts AFH** is the dedicated web presence for the Serene Hearts Adult Family Home. This project serves as a digital brochure and information portal, designed to provide families and potential residents with comprehensive information regarding care services, facility amenities, and admission procedures.
 
-### `npm test`
+The application focuses on accessibility, ease of navigation, and presenting a warm, welcoming digital environment that reflects the physical atmosphere of the home.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Key Features
 
-### `npm run build`
+*   **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices to ensure families can access information from anywhere.
+*   **Service Showcase:** Detailed sections outlining daily living assistance, medical coordination, and recreational activities.
+*   **Photo Gallery:** High-quality visual tour of the facility, rooms, and common areas.
+*   **Contact & Inquiry Forms:** Integrated forms for scheduling tours or requesting specific care information.
+*   **Accessibility First:** Designed with high contrast and readable typography to support elderly users and those with visual impairments.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project leverages modern web technologies to ensure performance and maintainability.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*   **Frontend:** React.js / Next.js
+*   **Styling:** CSS3 / Tailwind CSS / Styled Components
+*   **Routing:** React Router
+*   **Deployment:** GitHub pages
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Follow these instructions to set up the project locally for development and testing purposes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Ensure you have the following installed on your machine:
+*   [Node.js](https://nodejs.org/en/) (v14.x or higher)
+*   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+0. For making changes on master to then reflect on on pages branch https://www.youtube.com/watch?v=Q9n2mLqXFpU 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/philiptki/Serene-Hearts-AFH.git
+    cd Serene-Hearts-AFH
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2.  **Install dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+4.  **View the application**
+    Open your browser and navigate to `http://localhost:3000` (or the port specified in your terminal).
+
+## 📂 Project Structure
+
+```text
+Serene-Hearts-AFH/
+├── public/          # Static assets (images, icons, favicon)
+├── src/
+│   ├── components/  # Reusable UI components (Navbar, Footer, Cards)
+│   ├── pages/       # Application routes/pages
+│   ├── styles/      # Global styles and theme configurations
+│   └── utils/       # Helper functions and constants
+├── package.json     # Project dependencies and scripts
+└── README.md        # Project documentation
+```
+
+## 🤝 Contributing
+
+No Contribbutions. This is website for a small busniess to utilize not for open source.
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 📞 Contact
+
+**Project Maintainer** - [philiptki](https://github.com/philiptki)
+
+Project Link: [https://github.com/philiptki/Serene-Hearts-AFH](https://github.com/philiptki/Serene-Hearts-AFH)
